@@ -10,6 +10,8 @@ import java.math.BigDecimal;
 @Document(value = "product")
 @Data
 @Builder
+@NoArgsConstructor
+@AllArgsConstructor
 public class Product {
 
     @Id
