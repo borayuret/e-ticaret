@@ -43,3 +43,15 @@ docker rm 0902e1fa9322
 # çalışmayan tüm containerları toplu silme
 
 docker system prune
+
+
+# Swagger üretmek istiyorsak eklenecek kütüphane
+ SpringDoc OpenAPI Starter WebMVC UI
+
+ <dependency>
+             <groupId>org.springdoc</groupId>
+             <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
+             <version>2.2.0</version>
+ </dependency>
+
+ http://localhost:6060/swagger-ui/index.html
