@@ -4,15 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06190d6b-86f8-4128-bdfa-fbe4b083bdae" name="Changes" comment="DTO lar eklendi.">
-      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/codershere/productservice/mapper/ProductMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="06190d6b-86f8-4128-bdfa-fbe4b083bdae" name="Changes" comment="ProductMapper eklendi.">
+      <change afterPath="$PROJECT_DIR$/order-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/src/main/java/com/codershere/productservice/ProductServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/java/com/codershere/productservice/ProductServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/src/main/java/com/codershere/productservice/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/java/com/codershere/productservice/controller/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/src/main/java/com/codershere/productservice/dto/ProductResponseDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/java/com/codershere/productservice/dto/ProductResponseDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/src/main/java/com/codershere/productservice/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/java/com/codershere/productservice/service/ProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/src/main/java/com/codershere/productservice/service/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/java/com/codershere/productservice/service/ProductServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,7 +122,7 @@
       <workItem from="1699361623686" duration="3091000" />
       <workItem from="1699431314480" duration="6581000" />
       <workItem from="1699441124192" duration="9627000" />
-      <workItem from="1700042721308" duration="5290000" />
+      <workItem from="1700042721308" duration="7951000" />
     </task>
     <task id="LOCAL-00001" summary="e-ticaret projesi, multi-module yapısı kuruldu.">
       <option name="closed" value="true" />
@@ -168,7 +164,15 @@
       <option name="project" value="LOCAL" />
       <updated>1699451914505</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="ProductMapper eklendi.">
+      <option name="closed" value="true" />
+      <created>1700048377690</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1700048377690</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,7 +184,8 @@
     <MESSAGE value="CommandLineRunner ile örnek 3 kayıt ekledik." />
     <MESSAGE value="Swagger ekledik." />
     <MESSAGE value="DTO lar eklendi." />
-    <option name="LAST_COMMIT_MESSAGE" value="DTO lar eklendi." />
+    <MESSAGE value="ProductMapper eklendi." />
+    <option name="LAST_COMMIT_MESSAGE" value="ProductMapper eklendi." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

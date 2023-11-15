@@ -55,3 +55,8 @@ docker system prune
  </dependency>
 
  http://localhost:6060/swagger-ui/index.html
+
+
+ # Code with me
+
+ https://code-with-me.global.jetbrains.com/xIUo_I_uGfIF0x8wnEet1w#p=IU&fp=8B00A43CD1577BC2C34FDE5D37EACDCC3BB958669F9D85506EDA65C25B367F6E&newUi=true
