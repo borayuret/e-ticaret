@@ -57,6 +57,5 @@ docker system prune
  http://localhost:6060/swagger-ui/index.html
 
 
- # Code with me
 
- https://code-with-me.global.jetbrains.com/v_nN9FYmqfQ-XidqLLZI-g#p=IU&fp=8B00A43CD1577BC2C34FDE5D37EACDCC3BB958669F9D85506EDA65C25B367F6E&newUi=true
+
