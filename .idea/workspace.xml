@@ -4,15 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06190d6b-86f8-4128-bdfa-fbe4b083bdae" name="Changes" comment="code with me eklendi.">
-      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/codershere/orderservice/OrderServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/src/test/java/com/codershere/orderservice/OrderServiceApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="06190d6b-86f8-4128-bdfa-fbe4b083bdae" name="Changes" comment="order-service eklendi.">
+      <change afterPath="$PROJECT_DIR$/discovery-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/discovery-service/src/main/java/com/codershere/discoveryservice/DiscoveryServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/discovery-service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/discovery-service/src/test/java/com/codershere/discoveryservice/DiscoveryServiceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/codershere/orderservice/entity/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/codershere/orderservice/repository/OrderRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/komutlar.txt" beforeDir="false" afterPath="$PROJECT_DIR$/komutlar.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/order-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/src/main/java/com/codershere/orderservice/OrderServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/java/com/codershere/orderservice/OrderServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +33,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="isToolWindowVisible" value="false" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -58,7 +65,7 @@
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "C:/Users/boray/IdeaProjects/e-ticaret/order-service",
+    "last_opened_file_path": "C:/Users/boray/IdeaProjects/e-ticaret/discovery-service",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -71,6 +78,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\boray\IdeaProjects\e-ticaret\discovery-service" />
       <recent name="C:\Users\boray\IdeaProjects\e-ticaret\order-service" />
       <recent name="C:\Users\boray\IdeaProjects\e-ticaret\product-service" />
     </key>
@@ -83,7 +91,14 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ProductServiceApplication">
+  <component name="RunManager" selected="Spring Boot.DiscoveryServiceApplication">
+    <configuration name="DiscoveryServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="discovery-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.codershere.discoveryservice.DiscoveryServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="OrderServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="order-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.codershere.orderservice.OrderServiceApplication" />
@@ -139,7 +154,7 @@
       <workItem from="1699361623686" duration="3091000" />
       <workItem from="1699431314480" duration="6581000" />
       <workItem from="1699441124192" duration="9627000" />
-      <workItem from="1700042721308" duration="10446000" />
+      <workItem from="1700042721308" duration="14770000" />
     </task>
     <task id="LOCAL-00001" summary="e-ticaret projesi, multi-module yapısı kuruldu.">
       <option name="closed" value="true" />
@@ -205,7 +220,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700052758266</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="order-service eklendi.">
+      <option name="closed" value="true" />
+      <created>1700055279667</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1700055279667</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,7 +242,8 @@
     <MESSAGE value="DTO lar eklendi." />
     <MESSAGE value="ProductMapper eklendi." />
     <MESSAGE value="code with me eklendi." />
-    <option name="LAST_COMMIT_MESSAGE" value="code with me eklendi." />
+    <MESSAGE value="order-service eklendi." />
+    <option name="LAST_COMMIT_MESSAGE" value="order-service eklendi." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
