@@ -43,13 +43,13 @@ public class ProductServiceApplication implements CommandLineRunner {
 
 		productRepository.save(p3);
 
-		Product p5 = new Product();
-		p5.setId("XYZ12");
-		p5.setName("Kitaplık");
-		p5.setDescription("Tiamob dandik kitaplık");
+		Product p4 = new Product();
+		p4.setId("XYZ12");
+		p4.setName("Kitaplık");
+		p4.setDescription("Tiamob dandik kitaplık");
 
 
-		productRepository.save(p5);
+		productRepository.save(p4);
 
 	}
 }
